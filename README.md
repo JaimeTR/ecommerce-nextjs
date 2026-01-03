@@ -188,6 +188,13 @@ curl -X POST http://localhost:3000/api/products \
 
 ## Deployment
 
+### Important Notes
+⚠️ **Before deploying to production:**
+- Implement a proper checkout form to collect shipping addresses
+- Add user authentication (currently the checkout uses placeholder data)
+- Review and update security settings
+- Configure webhook handlers for Stripe events
+
 ### Vercel (Recommended)
 1. Push your code to GitHub
 2. Import your repository in Vercel

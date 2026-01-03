@@ -22,7 +22,8 @@ export default function CartPage() {
         body: JSON.stringify({
           items,
           shippingAddress: {
-            // This is a placeholder - in a real app, collect this from a form
+            // TODO: In production, collect this from a user checkout form
+            // This is placeholder data for demonstration purposes only
             name: 'Customer Name',
             address: '123 Main St',
             city: 'City',
